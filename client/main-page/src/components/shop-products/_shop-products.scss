@@ -1,0 +1,88 @@
+.product-right-container {
+
+    // flex-grow: 6;
+    flex-basis: 85%;
+    // background-color: blue;
+
+    .product-items {
+
+        box-sizing: border-box;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 4em;
+
+        .search-result-container {
+
+            .search-result-title {
+                position: absolute;
+                top: -4em;
+                margin-left: 1em;
+            }
+
+            // .search-result-filter {
+            //     position: absolute;
+            //     top: 0;
+            //     // right: 1em;
+            // }
+        }
+
+
+        .product {
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            margin: 0 1em 1em 1em;
+            padding: 0.7em;
+            color: black;
+            // padding-right: 2rem;
+
+            .product-content {
+                .product-img {
+
+                    // img {
+                    //     width: 250px;
+                    //     height: 320px;
+                    // }
+                    img {
+                        width: 300px;
+                        height: 300px;
+                    }
+                }
+            }
+
+            .product-info {
+                .text-overflow {
+                    width: 230px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+
+            .product-buttons {
+                margin-top: 10px;
+
+                .btn-cart {
+                    width: 300px;
+                    height: 35px;
+                    background-color: black;
+                    // background-color: #254E5EFF;
+                    // background-color: #254E5EFF;
+                    // background-color: #62775EFF;
+                    color: white;
+                    text-transform: uppercase;
+                    border: none;
+                    cursor: pointer;
+
+                    &:hover{
+                        opacity: 0.8;
+                    }
+                }
+            }
+
+            &:hover {
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,90 @@
+.product-left-container {
+    // flex-grow: 1;
+    flex-basis: 15%;
+    margin-top: 1.3em;
+    // background-color: rgb(217, 255, 0);
+
+    .filter-widget {
+        margin-left: 1em;
+
+        .aside {
+            margin-bottom: 25px;
+
+            .aside-title {
+                margin-bottom: 10px;
+                color: black;
+
+                h4 {
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+
+            .aside-content {
+                width: 180px;
+                max-height: 143px;
+                overflow-y: auto;
+                font-size: 0.9em;
+
+                .main {
+                    display: block;
+                    position: relative;
+                    padding-left: 25px;
+                    margin-bottom: 5px;
+                    cursor: pointer;
+                    font-size: 0.9em;
+                    color: black;
+                }
+
+                input[type=checkbox] {
+                    visibility: hidden;
+                }
+
+                .newCheckbox {
+                    position: absolute;
+                    top: 1.5px;
+                    left: 0;
+                    height: 18px;
+                    width: 18px;
+                    border: 1px solid rgba(0, 0, 0, 0.3);
+                }
+
+                .main input:checked~.newCheckbox {
+                    background-color: black;
+                }
+
+                .newCheckbox:after {
+                    content: "";
+                    position: absolute;
+                    display: none;
+                }
+
+                .main input:checked~.newCheckbox:after {
+                    display: block;
+                }
+
+                .main .newCheckbox:after {
+                    left: 5px;
+                    bottom: 3px;
+                    width: 6.5px;
+                    height: 11.5px;
+                    border: solid white;
+                    border-width: 0 3px 3px 0;
+                    transform: rotate(45deg);
+                }
+            }
+
+            .aside-content::-webkit-scrollbar-track {
+                box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            }
+
+            .aside-content::-webkit-scrollbar {
+                width: 4px;
+            }
+
+            .aside-content::-webkit-scrollbar-thumb {
+                background-color: black;
+            }
+        }
+    }
+}

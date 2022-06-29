@@ -1,0 +1,124 @@
+.product-favorites-container {
+    margin: 0 2%;
+    margin-top: 1em;
+    padding: 1em;
+    position: relative;
+
+    h1 {
+        text-align: center;
+        margin-bottom: 1.5em;
+    }
+
+    .favorites-empty {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: gray;
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            color: gray;
+
+            span {
+                margin-left: 0.5rem;
+            }
+        }
+    }
+
+    .search-result-container {
+
+        .search-result-title {
+            position: absolute;
+            top: 70px;
+            margin-left: 1em;
+            color: black;
+        }
+
+        // .search-result-filter {
+        //     position: absolute;
+        //     top: 0;
+        //     right: 1em;
+        // }
+    }
+
+    .product-items {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        // display: flex;
+        // justify-content: flex-start;
+        // flex-wrap: wrap;
+        box-sizing: border-box;
+        margin-top: 4em;
+
+        .product {
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            margin: 0 1em 1em 1em;
+            padding: 0.7em 0.5em 0.7em 0.5em;
+            color: black;
+
+            span {
+                float: right;
+                // font-weight: 600;
+                cursor: pointer;
+
+                &:hover {
+                    color: red;
+                }
+            }
+
+            .product-content {
+                .product-img {
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+
+            .product-info {
+                .text-overflow {
+                    width: 100%;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+
+                .product-price {
+                    float: left;
+                    margin-bottom: 10px;
+
+                }
+            }
+
+            .product-buttons {
+
+                .btn-cart {
+                    width: 100%;
+                    height: 35px;
+                    background-color: black;
+                    // background-color: #254E5EFF;
+                    // background-color: #254E5EFF;
+                    // background-color: #62775EFF;
+                    color: white;
+                    text-transform: uppercase;
+                    border: none;
+                    // font-size: ;
+                    cursor: pointer;
+
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                }
+            }
+
+            &:hover {
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
+        }
+    }
+}

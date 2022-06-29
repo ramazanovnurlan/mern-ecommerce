@@ -1,0 +1,153 @@
+{
+  "products": [
+    {
+      "productName": "Apple AirPods Pro",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, illo",
+      "price": "300",
+      "mainImageUrl": "https://m.media-amazon.com/images/I/71bhWgQK-cL._AC_SX522_.jpg",
+      "id": "1"
+    },
+    {
+      "productName": "Assus Rog",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, illo",
+      "price": "120",
+      "mainImageUrl": "https://m.media-amazon.com/images/I/81flXona9qL._AC_SL1500_.jpg",
+      "id": "2"
+    },
+    {
+      "productName": "Apple iPhone 11 [64GB, Purple] + Carrier Subscription [Cricket Wireless]",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, illo",
+      "price": "750",
+      "mainImageUrl": "https://m.media-amazon.com/images/I/71xn9bCRfhL._FMwebp__.jpg",
+      "id": "3"
+    },
+    {
+      "productName": "SAMSUNG Galaxy S22 Ultra Cell Phone,E",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, illo",
+      "price": "1200",
+      "mainImageUrl": "https://m.media-amazon.com/images/I/61U6oC65TTL._AC_SX522_.jpg",
+      "id": "4"
+    },
+    {
+      "productName": "Apple AirPods Max",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, illo",
+      "price": "500",
+      "mainImageUrl": "https://m.media-amazon.com/images/I/81jkMpNHVsL._AC_SX522_.jpg",
+      "id": "5"
+    },
+    {
+      "productName": "Huawei Freebuds Pro Active Noise Cancellation Earbuds MermaidTWS",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, illo",
+      "price": "400",
+      "mainImageUrl": "https://m.media-amazon.com/images/I/61ilRZOBSkL._AC_SX522_.jpg",
+      "id": "6"
+    },
+    {
+      "productName": "Apple Watch Series 7 [GPS 41mm] Smart Watch w/ Green Aluminum Case with Abyss Blue Sport Band.",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, illo",
+      "price": "600",
+      "mainImageUrl": "https://m.media-amazon.com/images/I/7194ZtL92zL._AC_SX522_.jpg",
+      "id": "7"
+    },
+    {
+      "productName": "PlayStation 5 Digital Edition",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, illo",
+      "price": "750",
+      "mainImageUrl": "https://m.media-amazon.com/images/I/51lVhQLZn+L._AC_SL1456_.jpg",
+      "id": "8"
+    },
+    {
+      "productName": "Controller Silicone Grip Cover for Oculus Quest 2 VR Controller, Anti-Throw Handle Protective Sleeve with Adjustable Wrist Knuckle Strap Oculus Quest 2 Accessories",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, illo",
+      "price": "2500",
+      "mainImageUrl": "https://m.media-amazon.com/images/I/51dceWy+xOL._AC_SX522_.jpg",
+      "id": "9"
+    }
+  ],
+  "users": [
+    {
+      "firstName": "Nurlan",
+      "lastName": "Ramazanov",
+      "email": "nurlan.ramazanov.1973@gmail.com",
+      "password": "oo",
+      "id": 1
+    },
+    {
+      "firstName": "Nurlan",
+      "lastName": "Ramazanov",
+      "email": "nurlan.ramazanov.19734@gmail.com",
+      "password": "7777",
+      "id": 3
+    },
+    {
+      "firstName": "ha",
+      "lastName": "ha",
+      "email": "nurlan.ramazanov.197345@gmail.com",
+      "password": "34",
+      "id": 5
+    },
+    {
+      "firstName": "Nurlan",
+      "lastName": "Ramazanov",
+      "email": "nurlan.ramazanov4.1973@gmail.com",
+      "password": "56",
+      "id": 6
+    },
+    {
+      "firstName": "asdf",
+      "lastName": "Ramazanov",
+      "email": "nurlan.ramazanov.19738@gmail.com",
+      "password": "89",
+      "id": 7
+    },
+    {
+      "firstName": "Nurlan",
+      "lastName": "Ramazanov",
+      "email": "nurlan.ramazanov.1973@gmail.com",
+      "password": "580",
+      "id": 8
+    },
+    {
+      "firstName": "Nurlan",
+      "lastName": "Ramazanov",
+      "email": "nurlan.ramazanov.1975@gmail.com",
+      "password": "888",
+      "id": 9
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "id": 10
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "id": 11
+    },
+    {
+      "firstName": "Nurlan",
+      "lastName": "Ramazanov",
+      "email": "nurlan.ramazanov.197rgh3@gmail.com",
+      "password": "55",
+      "id": 12
+    },
+    {
+      "firstName": "Nurlan",
+      "lastName": "Ramazanov",
+      "email": "nurlan.ramazanov.197673@gmail.com",
+      "password": "67",
+      "id": 13
+    },
+    {
+      "firstName": "Nurlan",
+      "lastName": "Ramazanov",
+      "email": "nurlan.ramazanov.00@inbox.ru",
+      "password": "n0503275518",
+      "id": 14
+    }
+  ]
+}
